@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --black-grey: #373833;
+    --ligth-grey: #37383385;
+    --primary: #E8EAE3;
+    --secondary: #FA2742;
+    --text: WhiteSmoke;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    color: var(--text);
+}
+
+
+body{
+    background-color: black;
+}
