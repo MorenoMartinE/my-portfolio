@@ -18,7 +18,7 @@ const WhoIm = () => {
     return(
         <>
         <div className="h-screen py-[11vh] flex flex-col justify-evenly items-center duration-700 opacity-0" id='frame-div'>
-            <div className='flex justify-center items-center flex-col p-7 border-solid border-white border'>
+            <div className='flex justify-center items-center flex-col p-7 border-solid border-white border' id='whoim-text-container'>
                 <p className='text-left w-[40vw]'>I'm a</p>
                 <TypeAnimation
                 sequence={[
@@ -35,7 +35,7 @@ const WhoIm = () => {
                 />
             </div>
             <div>
-                <BlackSwipe />
+                <BlackSwipe idTextContainer='whoim-text-container' />
             </div>
         </div>
         </>
